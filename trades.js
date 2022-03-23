@@ -12,7 +12,7 @@ const trades = [
 		asset: "ETH", // Asset you want to buy
 		currency: "AUD", // Currency you want to buy the asset with
 		quoteOrderQty: 15, // Buy $10 AUD worth of ETH
-		schedule: '* * * * *' // Every day @ 11am
+		schedule: '0 11 * * *' // Every day @ 11am
 	},
 	// Weekly DCA
 	{
